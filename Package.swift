@@ -1,8 +1,9 @@
-// swift-tools-version:4.1
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "OpenAQKit",
+    platforms: [.iOS("14.0")],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
